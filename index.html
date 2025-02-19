@@ -1,1 +1,45 @@
-mouhamad
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Master</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+          <h1>✓ Task Master</h1>
+          <p class="subtitle">Organize your tasks efficiently</p>
+        </div>
+        
+        <div class="search-bar">
+          <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" placeholder="Search tasks..." class="search-input">
+          </div>
+          <div class="select-wrapper">
+            <span class="select-icon">📋</span>
+            <select class="filter-select">
+              <option>All Tasks</option>
+            </select>
+          </div>
+          <button class="clear-btn">🗑️ Clear All</button>
+        </div>
+
+        <div class="task-input">
+          <input type="text" placeholder="What needs to be done?" class="new-task-input">
+          <button class="add-btn">Add Task</button>
+        </div>
+
+        <div class="tasks-container">
+          <div class="empty-state">
+            <span class="pencil-icon">✏️</span>
+            <p>No tasks found. Add some tasks to get started!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
